@@ -1,0 +1,44 @@
+# APP Scholar - Sistema Acadêmico Escolar
+
+## Sobre o projeto
+O **APP Scholar** é uma aplicação mobile voltada para o gerenciamento de informações acadêmicas e administrativas no ambiente escolar[span_6](start_span)[span_6](end_span).
+O sistema foi desenvolvido para facilitar a gestão centralizada de dados institucionais, permitindo a consulta, cadastro, edição e organização de registros em um ambiente prático e intuitivo[span_7](start_span)[span_7](end_span).
+
+## Funcionalidades
+A aplicação conta com 10 módulos principais de gerenciamento[span_8](start_span)[span_8](end_span):
+
+- **Gestão de Alunos:** Cadastro, consulta, edição e desativação com integração a API externa[span_9](start_span)[span_9](end_span).
+- **Gestão de Professores:** Controle de informações docentes e áreas de atuação[span_10](start_span)[span_10](end_span).
+- **Gestão de Turmas:** Organização por capacidade, período, turno e ano letivo[span_11](start_span)[span_11](end_span).
+- **Gestão de Cursos:** Controle de carga horária, modalidades e descrições[span_12](start_span)[span_12](end_span).
+- **Gestão de Disciplinas:** Organização da grade curricular e vínculo com professores[span_13](start_span)[span_13](end_span).
+- **Gestão de Matrículas:** Acompanhamento da situação do aluno na turma/curso[span_14](start_span)[span_14](end_span).
+- **Gestão de Responsáveis:** Cadastro de contatos de emergência e parentescos[span_15](start_span)[span_15](end_span).
+- **Gestão de Avaliações:** Lançamento de provas, notas e trabalhos[span_16](start_span)[span_16](end_span).
+- **Gestão de Coordenadores:** Controle administrativo dos departamentos[span_17](start_span)[span_17](end_span).
+- **Boletins Escolares:** Acompanhamento de médias gerais, faltas justificadas e não justificadas[span_18](start_span)[span_18](end_span).
+
+## Tecnologias utilizadas
+- **React Native** (v0.81.5)[span_19](start_span)[span_19](end_span)[span_20](start_span)[span_20](end_span)
+- **Expo Framework** (v54.0.37)[span_21](start_span)[span_21](end_span)[span_22](start_span)[span_22](end_span)
+- **JavaScript (ES6+)**[span_23](start_span)[span_23](end_span)
+- **React Navigation** (Native Stack / Hooks)[span_24](start_span)[span_24](end_span)[span_25](start_span)[span_25](end_span)
+- **Fetch API** (Comunicação com serviços e backend externo)[span_26](start_span)[span_26](end_span)
+- **Git & GitHub** (Controle de versão)[span_27](start_span)[span_27](end_span)
+
+## Estrutura do projeto
+```text
+meu_app_scholar/
+├── assets/                  # Imagens, logotipos e ícones do sistema
+│   ├── icon.png
+│   ├── logomaneira.png
+│   └── splash-icon.png
+├── src/
+│   └── services/            # Configuração das requisições com a API (api.js)
+├── App.js                   # Módulos, navegação Stack e telas da aplicação
+├── app.json                 # Configurações do Expo
+├── package.json             # Dependências e scripts do projeto
+├── .gitignore               # Arquivos ignorados pelo Git
+└── README.md                # Documentação principal do repositório
+
+
